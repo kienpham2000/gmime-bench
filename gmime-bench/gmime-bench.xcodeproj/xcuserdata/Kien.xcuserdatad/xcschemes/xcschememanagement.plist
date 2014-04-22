@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>cmime.xcscheme</key>
+		<key>gmime-bench.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9D83A5A618FF6358000E7204</key>
+		<key>9D68BA0B1901987F00088C3C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

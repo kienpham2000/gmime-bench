@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D83A5AB18FF6358000E7204 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D83A5AA18FF6358000E7204 /* main.c */; };
-		9D83A5AD18FF6358000E7204 /* cmime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D83A5AC18FF6358000E7204 /* cmime.1 */; };
+		9D68BA101901987F00088C3C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D68BA0F1901987F00088C3C /* main.c */; };
+		9D68BA121901987F00088C3C /* gmime_bench.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D68BA111901987F00088C3C /* gmime_bench.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9D83A5A518FF6358000E7204 /* CopyFiles */ = {
+		9D68BA0A1901987F00088C3C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				9D83A5AD18FF6358000E7204 /* cmime.1 in CopyFiles */,
+				9D68BA121901987F00088C3C /* gmime_bench.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9D83A5A718FF6358000E7204 /* cmime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cmime; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D83A5AA18FF6358000E7204 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		9D83A5AC18FF6358000E7204 /* cmime.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cmime.1; sourceTree = "<group>"; };
+		9D68BA0C1901987F00088C3C /* gmime-bench */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "gmime-bench"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D68BA0F1901987F00088C3C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9D68BA111901987F00088C3C /* gmime_bench.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = gmime_bench.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9D83A5A418FF6358000E7204 /* Frameworks */ = {
+		9D68BA091901987F00088C3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,90 +41,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9D83A59E18FF6358000E7204 = {
+		9D68BA031901987F00088C3C = {
 			isa = PBXGroup;
 			children = (
-				9D83A5A918FF6358000E7204 /* cmime */,
-				9D83A5A818FF6358000E7204 /* Products */,
+				9D68BA0E1901987F00088C3C /* gmime-bench */,
+				9D68BA0D1901987F00088C3C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9D83A5A818FF6358000E7204 /* Products */ = {
+		9D68BA0D1901987F00088C3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D83A5A718FF6358000E7204 /* cmime */,
+				9D68BA0C1901987F00088C3C /* gmime-bench */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D83A5A918FF6358000E7204 /* cmime */ = {
+		9D68BA0E1901987F00088C3C /* gmime-bench */ = {
 			isa = PBXGroup;
 			children = (
-				9D83A5AA18FF6358000E7204 /* main.c */,
-				9D83A5AC18FF6358000E7204 /* cmime.1 */,
+				9D68BA111901987F00088C3C /* gmime_bench.1 */,
+				9D68BA0F1901987F00088C3C /* main.c */,
 			);
-			path = cmime;
+			path = "gmime-bench";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D83A5A618FF6358000E7204 /* cmime */ = {
+		9D68BA0B1901987F00088C3C /* gmime-bench */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D83A5B018FF6358000E7204 /* Build configuration list for PBXNativeTarget "cmime" */;
+			buildConfigurationList = 9D68BA151901987F00088C3C /* Build configuration list for PBXNativeTarget "gmime-bench" */;
 			buildPhases = (
-				9D83A5A318FF6358000E7204 /* Sources */,
-				9D83A5A418FF6358000E7204 /* Frameworks */,
-				9D83A5A518FF6358000E7204 /* CopyFiles */,
+				9D68BA081901987F00088C3C /* Sources */,
+				9D68BA091901987F00088C3C /* Frameworks */,
+				9D68BA0A1901987F00088C3C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = cmime;
-			productName = cmime;
-			productReference = 9D83A5A718FF6358000E7204 /* cmime */;
+			name = "gmime-bench";
+			productName = "gmime-bench";
+			productReference = 9D68BA0C1901987F00088C3C /* gmime-bench */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9D83A59F18FF6358000E7204 /* Project object */ = {
+		9D68BA041901987F00088C3C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = SendGrid;
 			};
-			buildConfigurationList = 9D83A5A218FF6358000E7204 /* Build configuration list for PBXProject "cmime" */;
+			buildConfigurationList = 9D68BA071901987F00088C3C /* Build configuration list for PBXProject "gmime-bench" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 9D83A59E18FF6358000E7204;
-			productRefGroup = 9D83A5A818FF6358000E7204 /* Products */;
+			mainGroup = 9D68BA031901987F00088C3C;
+			productRefGroup = 9D68BA0D1901987F00088C3C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D83A5A618FF6358000E7204 /* cmime */,
+				9D68BA0B1901987F00088C3C /* gmime-bench */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9D83A5A318FF6358000E7204 /* Sources */ = {
+		9D68BA081901987F00088C3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D83A5AB18FF6358000E7204 /* main.c in Sources */,
+				9D68BA101901987F00088C3C /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9D83A5AE18FF6358000E7204 /* Debug */ = {
+		9D68BA131901987F00088C3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -162,7 +162,7 @@
 			};
 			name = Debug;
 		};
-		9D83A5AF18FF6358000E7204 /* Release */ = {
+		9D68BA141901987F00088C3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -194,27 +194,51 @@
 			};
 			name = Release;
 		};
-		9D83A5B118FF6358000E7204 /* Debug */ = {
+		9D68BA161901987F00088C3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"/usr/local/Cellar/gmime/2.6.19/include/gmime-2.6",
+					"/usr/local/Cellar/gmime/2.6.19/include/gmime-2.6/**",
 					"/usr/local/Cellar/glib/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/gmime/2.6.19/lib/**",
+					"/usr/local/opt/gettext/lib/**",
+					"/usr/local/Cellar/glib/2.38.2/lib/**",
+				);
+				OTHER_LDFLAGS = (
+					"-lgmime-2.6",
+					"-lgio-2.0",
+					"-lgobject-2.0",
+					"-lglib-2.0",
+					"-lintl",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		9D83A5B218FF6358000E7204 /* Release */ = {
+		9D68BA171901987F00088C3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"/usr/local/Cellar/gmime/2.6.19/include/gmime-2.6",
+					"/usr/local/Cellar/gmime/2.6.19/include/gmime-2.6/**",
 					"/usr/local/Cellar/glib/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/gmime/2.6.19/lib/**",
+					"/usr/local/opt/gettext/lib/**",
+					"/usr/local/Cellar/glib/2.38.2/lib/**",
+				);
+				OTHER_LDFLAGS = (
+					"-lgmime-2.6",
+					"-lgio-2.0",
+					"-lgobject-2.0",
+					"-lglib-2.0",
+					"-lintl",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -223,24 +247,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D83A5A218FF6358000E7204 /* Build configuration list for PBXProject "cmime" */ = {
+		9D68BA071901987F00088C3C /* Build configuration list for PBXProject "gmime-bench" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D83A5AE18FF6358000E7204 /* Debug */,
-				9D83A5AF18FF6358000E7204 /* Release */,
+				9D68BA131901987F00088C3C /* Debug */,
+				9D68BA141901987F00088C3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D83A5B018FF6358000E7204 /* Build configuration list for PBXNativeTarget "cmime" */ = {
+		9D68BA151901987F00088C3C /* Build configuration list for PBXNativeTarget "gmime-bench" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D83A5B118FF6358000E7204 /* Debug */,
-				9D83A5B218FF6358000E7204 /* Release */,
+				9D68BA161901987F00088C3C /* Debug */,
+				9D68BA171901987F00088C3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9D83A59F18FF6358000E7204 /* Project object */;
+	rootObject = 9D68BA041901987F00088C3C /* Project object */;
 }
